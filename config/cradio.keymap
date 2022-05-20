@@ -91,12 +91,22 @@
 		
 		tri_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
+		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&tog 4 &trans   &trans   &trans  &trans
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &trans &trans  					&trans &trans 
 		>;
 		};	
+		
+		
+		gaming_layer {
+		bindings = <
+		&kp esc  &kp Q    &kp W    &kp E    &kp R 			&tog 4 &trans   &trans   &trans  &trans
+		&kp LSFT &kp A &kp S &kp D &kp F  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
+		&kp LCTL  &kp Z  &kp X &kp C &kp V   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
+					 &kp LALT &kp SPC  					&trans &trans 
+		>;
+		};
         
 	};
 };
