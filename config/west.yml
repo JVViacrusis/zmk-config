@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: JVViacrusis
-      revision: default-config
+      revision: main
       import: app/west.yml
   self:
     path: config
