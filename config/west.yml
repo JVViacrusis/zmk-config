@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: cdc-mkb
-      url-base: https://github.com/cdc-mkb
+    - name: JVViacrusis
+      url-base: https://github.com/JVViacrusis
   projects:
     - name: zmk
-      remote: cdc-mkb
+      remote: JVViacrusis
       revision: mouse-pim447
       import: app/west.yml
   self:
