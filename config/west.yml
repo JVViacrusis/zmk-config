@@ -1,6 +1,6 @@
 manifest:
   remotes:
-    - name: cdc-mkd
+    - name: cdc-mkb
       url-base: https://github.com/cdc-mkb
   projects:
     - name: zmk
