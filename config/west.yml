@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: JVViacrusis
-      revision: mouse-pim447
+      revision: cdc-mkb-zmk-mouse-pim447
       import: app/west.yml
   self:
     path: config
